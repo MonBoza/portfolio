@@ -29,7 +29,7 @@ const Nav = () => {
   </>
   return (
     <nav>
-      <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 flex-1 ">
+      <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-n border-slate-800 ">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">Logo</span>
         </div>
@@ -37,16 +37,19 @@ const Nav = () => {
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[18px]">
               <Link spy={"true"} smooth={"true"} to="Home">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Home</li>
+                <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Home</li>
               </Link >
               <Link spy={"true"} smooth={"true"} to="About">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
+                <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">About</li>
               </Link >
               <Link spy={"true"} smooth={"true"} to="Projects">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
+                <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Projects</li>
               </Link >
               <Link spy={"true"} smooth={"true"} to="ContactMe">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact Me</li>
+                <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Contact Me</li>
+              </Link >
+              <Link spy={"true"} smooth={"true"} to="Resume">
+                <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Resume</li>
               </Link >
             </ul>
           </div>
