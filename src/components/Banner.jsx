@@ -1,7 +1,8 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import profile from '../assets/profile.png';
+import profile from '../assets/profile.jpeg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-scroll";
 
 import React, { useEffect } from "react";
 
@@ -34,7 +35,7 @@ const Banner = () => {
           
         </div>
       </div>
-      <img data-aos="zoom-in-up"src={profile} alt="picture of me on a swing" width={200} height={200} className="rounded-full border-2 p-1 border-fuchsia-500 img_glow" />
+      <img data-aos="zoom-in-up"src={profile} alt="picture of me on a swing" width={200} height={200} className="rounded border-2 p-1 border-fuchsia-500 img_glow" />
     </div>
   );
 }
