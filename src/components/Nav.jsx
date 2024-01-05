@@ -36,19 +36,19 @@ const Nav = () => {
         <div className="lg:flex md:flex lg: flex-q items center justify-end font-normal hidden">
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[18px]">
-              <Link spy={"true"} smooth={"true"} to="Home">
+              <Link spy={true} smooth={true} to="Home">
                 <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Home</li>
               </Link >
-              <Link spy={"true"} smooth={"true"} to="About">
+              <Link spy={true} smooth={true} to="About">
                 <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">About</li>
               </Link >
-              <Link spy={"true"} smooth={"true"} to="Projects">
+              <Link spy={true} smooth={true} to="Projects">
                 <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Projects</li>
               </Link >
-              <Link spy={"true"} smooth={"true"} to="ContactMe">
+              <Link spy={true} smooth={true} to="ContactMe">
                 <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Contact Me</li>
               </Link >
-              <Link spy={"true"} smooth={"true"} to="Resume">
+              <Link spy={true} smooth={true} to="Resume">
                 <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Resume</li>
               </Link >
             </ul>
