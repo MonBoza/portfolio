@@ -37,7 +37,7 @@ const Nav = () => {
         <div className="lg:flex md:flex lg: flex-q items center justify-end font-normal hidden">
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[18px]">
-              <Link onClick={handleClick} spy={true} smooth={true} src="Home">
+              <Link onClick={handleClick} spy={true} smooth={true} to="Home">
                 <li className="hover:text-blue-600 transition border-b-2 border-slate-900 hover:border-blue-600 cursor-pointer">Home</li>
               </Link >
               <Link spy={true} smooth={true} to="About">

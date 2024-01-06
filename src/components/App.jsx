@@ -1,23 +1,21 @@
-
-import Header from './Header';
 import Nav from './Nav';
 import React from 'react';
 import Banner from './Banner';
 import About from './About';
 import Projects from './Projects';
 import ContactMe from './ContactMe';
+import Footer from './Footer';
 
-
-function App() {
-
+const App = () => {
   return (
     
-    <div className="bg-slate-900">
+    <div id="Home"className="bg-slate-900">
       <Nav/>
       <Banner/>
       <About/>
       <Projects/>
       <ContactMe/>
+      <Footer/>
   
     </div>
   )}
