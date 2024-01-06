@@ -23,15 +23,15 @@ I created a new portfolio app showing the new things I learned and my updated re
 ## Setup/Installation Requirements
 
 * Open terminal or command prompt.
-* Clone the repository by running the following command to your desktop: git clone https://github.com/MonBoza/portfolio.git
+* Clone the repository by running the following command to your desktop: <code>git clone https://github.com/MonBoza/portfolio.git</code>
 * Make sure .gitignore is added to repository.
 * Install AOS running <code>npm install --save aos@next</code> in your terminal.
 * Install tailwindCSS running <code>npm install -D tailwindcss</code> and then <code>npx tailwind css init</code> to create a file in the root of the directory.
 * Install Packages with <code>npm install</code>.
 * Build the project with webpack using <code>npm run build</code>.
-* Start a development Server with <code>npm run dev</code>.
 * Open the project in your favorite code editor.
-* Navigate to the to the bottom of the directory.
+* Start a development Server with <code>npm run dev</code>.
+
 
 
 
