@@ -20,6 +20,10 @@
 ## Description
 I created a new portfolio app showing the new things I learned and my updated resume. There are links to my linkedIn and github as well.
 
+### Project preview
+<img width="1134" alt="portfolio" src="https://github.com/MonBoza/portfolio/assets/145809292/e6626a5d-4664-4a67-942e-ebd83bcdcfde">
+
+
 ## Setup/Installation Requirements
 
 * Open terminal or command prompt.
@@ -50,4 +54,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 Email: (mailto:MonBoza@gmail.com) 
 
-Copyright (c) January 5, 2024 Monica Barboza
+Copyright (c) 1 5, 2024 Monica Barboza
