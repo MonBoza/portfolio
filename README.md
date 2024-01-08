@@ -50,4 +50,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 Email: (mailto:MonBoza@gmail.com) 
 
-Copyright (c) 1 5, 2024 Monica Barboza
+Copyright (c) January 5, 2024 Monica Barboza
