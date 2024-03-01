@@ -2,12 +2,20 @@ import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
+import img5 from '../assets/img5.png'
+import img6 from '../assets/img6.png'
+import img7 from '../assets/img7.png'
+import img8 from '../assets/img8.png'
 
 const projectsData = [
   { img: img1, repoLink: 'https://github.com/MonBoza/parkerspizza' },
   { img: img2, repoLink: 'https://github.com/MonBoza/roboger' },
   { img: img3, repoLink: 'https://github.com/MonBoza/currency-exchange'},
   { img: img4, repoLink: 'https://github.com/MonBoza/ice-cream-shop-Redux' },
+  {img: img5, repoLink: 'https://github.com/kimmykokonut/sound-check.git'},
+  {img: img6, repoLink: 'https://github.com/MonBoza/Astrology.git'},
+  {img: img7, repoLink: 'https://github.com/MonBoza/VendorTracker.Solution.git'},
+  {img: img8, repoLink: 'https://github.com/MonBoza/HairSalon.Solution.git'}
 ];
 
 const Projects = () => {
