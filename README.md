@@ -1,8 +1,8 @@
 # React Portfolio
 
-#### My updated Portfolio with all the new front end skills I learned
+## My updated Portfolio with all the new front end skills I learned
 
-#### By Monica Barboza
+## By Monica Barboza
 
 ## Technologies Used
 
@@ -16,10 +16,12 @@
 * Bootstrap
 * Vite
 * React
+* MongoDb
 
 ## Description
 
 I created a new portfolio app showing the new things I learned and my updated resume. There are links to my linkedIn and github as well.
+
 -------------------------------------------------------
  Try it out:
 [My Portfolio](https://monicabarboza-portfolio.netlify.app/)
@@ -27,7 +29,6 @@ I created a new portfolio app showing the new things I learned and my updated re
 ### Project preview
 
 <img width="500" alt="portfolio" src="https://github.com/MonBoza/portfolio/assets/145809292/e6626a5d-4664-4a67-942e-ebd83bcdcfde">
-
 
 ## Setup/Installation Requirements
 
