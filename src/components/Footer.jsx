@@ -9,6 +9,9 @@ const Footer = () => {
           <div className="flex mt-4 gap-2">
             <p className="text-base text-yellow-500">Email: monboza@gmail.com</p>
           </div>
+          <div className="flex mt-4 gap-2">
+            <a className="text-base text-black" href="https://github.com/MonBoza/portfolio.git" target="_blank">GitHub Repo</a>
+            </div>
         </div>
 
         <div className="col-span-3 md:text-right flex flex-col justify-center">
