@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://localhost/your-database-name', {
+    await mongoose.connect('import.meta.env.VITE_MONGODB_URI', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

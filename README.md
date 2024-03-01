@@ -18,7 +18,11 @@
 * React
 
 ## Description
+
 I created a new portfolio app showing the new things I learned and my updated resume. There are links to my linkedIn and github as well.
+-------------------------------------------------------
+ Try it out:
+[My Portfolio](https://monicabarboza-portfolio.netlify.app/)
 
 ### Project preview
 
