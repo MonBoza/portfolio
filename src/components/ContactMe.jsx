@@ -13,10 +13,14 @@ const Contact = () => {
       <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-purple-800">Contact Me</h1>
       <form  action="" className="flex flex-col gap-2 lg:w-1/2 uppercase" onSubmit={handleSubmit}>   
       <div className="lg:flex gap-9">
-      <input data-aos="fade-right" className="w-full my-3 rounded-lg bg-slate-700 text-lg p-4 border-2 border-blue-800 b_glow" id="Name"type="text" placeholder="Name"  /> 
-      <input  data-aos="fade-left" className="w-full my-3 rounded-lg bg-slate-700 p-4 text-lg border-2 border-blue-800 b_glow" type="Email" placeholder="Email"  /> <ValidationError 
-        prefix="Message" 
-        field="message"
+      <input data-aos="fade-right" className="w-full my-3 rounded-lg bg-slate-700 text-lg p-4 border-2 border-blue-800 b_glow" id="name" name="name"type="text" placeholder="Name"  /> <ValidationError 
+        prefix="name" 
+        field="name"
+        errors={state.errors}
+      />
+      <input  data-aos="fade-left" className="w-full my-3 rounded-lg bg-slate-700 p-4 text-lg border-2 border-blue-800 b_glow" type="email" name="email" id="email" placeholder="Email"/> <ValidationError 
+        prefix="email" 
+        field="email"
         errors={state.errors}
       />
       </div>
