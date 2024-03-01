@@ -4,7 +4,9 @@ import React from "react";
 const Contact = () => {
   const [state, handleSubmit] = useForm("mayrjvgk");
   if (state.succeeded) {
-      return <p ClassName="text-base text-yellow-500">Sent. Thanks for reaching out!</p>;
+    if (state.succeeded) {
+      return <p data-aos="flip-left" className="text-[40px] text-base text-yellow-500 font-semibold mb-20 leading-normal uppercase justify-center text-center">Thanks for reaching out!</p>;
+  }
   }
   return(
     <div id="ContactMe" className="p-4  lg:p--20 flex flex-col items-center justify-center">
@@ -24,7 +26,7 @@ const Contact = () => {
         errors={state.errors}
       />
    
-      <button className="neno-button shadow-xl hover:shadow-purple-800/50 text-white border-2 bg-blue-800 hover:bg-slate-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden b_glow text-xl text-bold mb-10" type="submit">Submit</button>
+      <button className="neno-button shadow-xl hover:shadow-purple-800/50 text-white border-2 bg-blue-800 hover:bg-slate-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden b_glow text-xl text-bold mb-10" type="submit" >Submit</button>
       </form>
     </div>
   );

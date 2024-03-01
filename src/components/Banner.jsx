@@ -20,7 +20,7 @@ const Banner = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         
         <h1 data-aos="fade-right" className="text-5xl text-blue-500 font-semibold mb-8 leading-normal uppercase">Monica Barboza</h1>
-        <p><p> A Junior Fullstack Developer coding my way through bugs and building a brighter tomorrow, one line of code at a time!</p></p>
+        <p> A Junior Fullstack Developer coding my way through bugs and building a brighter tomorrow, one line of code at a time!</p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
