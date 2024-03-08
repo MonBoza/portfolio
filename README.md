@@ -24,7 +24,7 @@ I created a new portfolio app showing the new things I learned and my updated re
 
 -------------------------------------------------------
  Try it out:
-[My Portfolio](https://monicabarboza-portfolio.netlify.app/)
+[My Portfolio](https://monicabarboza.netlify.app/)
 
 ### Project preview
 
