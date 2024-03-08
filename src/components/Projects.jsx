@@ -14,7 +14,7 @@ const projectsData = [
   { img: img4, repoLink: 'https://github.com/MonBoza/ice-cream-shop-Redux' },
   {img: img5, repoLink: 'https://github.com/kimmykokonut/sound-check.git'},
   {img: img6, repoLink: 'https://github.com/MonBoza/Astrology.git'},
-  {img: img7, repoLink: 'https://github.com/MonBoza/VendorTracker.Solution.git'},
+  {img: img7, repoLink: 'https://vendortracker-solution.onrender.com'},
   {img: img8, repoLink: 'https://hairsalon-solution.onrender.com'}
 ];
 
