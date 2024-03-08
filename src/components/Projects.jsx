@@ -15,7 +15,7 @@ const projectsData = [
   {img: img5, repoLink: 'https://github.com/kimmykokonut/sound-check.git'},
   {img: img6, repoLink: 'https://github.com/MonBoza/Astrology.git'},
   {img: img7, repoLink: 'https://github.com/MonBoza/VendorTracker.Solution.git'},
-  {img: img8, repoLink: 'https://github.com/MonBoza/HairSalon.Solution.git'}
+  {img: img8, repoLink: 'https://hairsalon-solution.onrender.com'}
 ];
 
 const Projects = () => {
