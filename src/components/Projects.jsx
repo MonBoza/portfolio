@@ -8,12 +8,12 @@ import img7 from '../assets/img7.png'
 import img8 from '../assets/img8.png'
 
 const projectsData = [
-  { img: img1, repoLink: 'https://github.com/MonBoza/parkerspizza' },
+  { img: img1, repoLink: 'http://monboza.github.io/parkerspizza/' },
   { img: img2, repoLink: 'https://github.com/MonBoza/roboger' },
   { img: img3, repoLink: 'https://github.com/MonBoza/currency-exchange'},
   { img: img4, repoLink: 'https://github.com/MonBoza/ice-cream-shop-Redux' },
-  {img: img5, repoLink: 'https://github.com/kimmykokonut/sound-check.git'},
-  {img: img6, repoLink: 'https://github.com/MonBoza/Astrology.git'},
+  {img: img5, repoLink: 'https://sound-check.netlify.app/'},
+  {img: img6, repoLink: 'https://crystal-cosmos.netlify.app/'},
   {img: img7, repoLink: 'https://vendortracker-solution.onrender.com'},
   {img: img8, repoLink: 'https://hairsalon-solution.onrender.com'}
 ];
