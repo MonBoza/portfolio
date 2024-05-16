@@ -35,6 +35,7 @@ const About = () => {
               <button onClick={handleOpenModal} className="neno-button shadow-xl hover:shadow-blue800/50 text-white border-2 hover:bg-fuchsia-800 border-blue-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden">
                 Resume
               </button>
+              {/* update resume with no cell number */}
             </div>
           </div>
         </div>
