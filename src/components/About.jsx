@@ -2,7 +2,7 @@ import React from "react";
 import profile from '../assets/profile.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ResumePDF from "../assets/Resume.pdf";
+import ResumePDF from "../assets/resume2.pdf";
 import { useState } from "react";
 
 const About = () => {
