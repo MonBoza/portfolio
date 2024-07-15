@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import profile from '../assets/profile.jpeg';
+import profile from '../assets/profile1.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from "react-scroll";
